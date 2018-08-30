@@ -1,4 +1,4 @@
-# Smart Contract Starter
+# Smart Contract Starter [![Build Status](https://travis-ci.org/ravidsrk/smart-contract-starter.svg?branch=master)](https://travis-ci.org/ravidsrk/smart-contract-starter) [![Coverage Status](https://coveralls.io/repos/github/ravidsrk/smart-contract-starter/badge.svg?branch=master)](https://coveralls.io/github/ravidsrk/smart-contract-starter?branch=master) [![CircleCI](https://circleci.com/gh/ravidsrk/smart-contract-starter.svg?style=svg)](https://circleci.com/gh/ravidsrk/smart-contract-starter)
 
 Boilerplate for your next Smart Contract, made simple.
 

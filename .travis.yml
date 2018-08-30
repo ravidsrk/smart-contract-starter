@@ -14,7 +14,7 @@ script:
   - npm run solium
   - npm run ganache
   - sleep 5
-  - truffle migrate
+  - truffle migrate --network test
   - truffle test
   - npm run stop
 after_script:
