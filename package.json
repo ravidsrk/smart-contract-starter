@@ -15,12 +15,11 @@
     "test:gas-reporter": "GAS_REPORTER=true npm run test",
     "test-ci": "GAS_REPORTER=true npm run ganache sleep 5 && npm run lint ./ && npm run solium && truffle test",
     "coverage": "./node_modules/.bin/solidity-coverage",
-    "lint": "eslint ./",
+    "lint": "eslint ./test",
     "lint:fix": "eslint ./ --fix",
     "solium": "solium -d contracts/",
     "solium:fix": "solium -d contracts/ --fix",
-    "build": "npm run clean:contracts && truffle compile",
-    "lint:js": "eslint ./test"
+    "build": "npm run clean:contracts && truffle compile"
   },
   "dependencies": {
     "web3": "^1.0.0-beta.35",
