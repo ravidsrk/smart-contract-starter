@@ -1,10 +1,23 @@
-# Smart Contract Starter [![Build Status](https://travis-ci.org/ravidsrk/smart-contract-starter.svg?branch=master)](https://travis-ci.org/ravidsrk/smart-contract-starter) [![Coverage Status](https://coveralls.io/repos/github/ravidsrk/smart-contract-starter/badge.svg?branch=master)](https://coveralls.io/github/ravidsrk/smart-contract-starter?branch=master) [![CircleCI](https://circleci.com/gh/ravidsrk/smart-contract-starter.svg?style=svg)](https://circleci.com/gh/ravidsrk/smart-contract-starter)
+# Smart Contract Starter 
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ravidsrk/smart-contract-starter/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/ravidsrk/smart-contract-starter.svg?branch=master)](https://travis-ci.org/ravidsrk/smart-contract-starter) 
+[![Coverage Status](https://coveralls.io/repos/github/ravidsrk/smart-contract-starter/badge.svg?branch=master)](https://coveralls.io/github/ravidsrk/smart-contract-starter?branch=master) 
+[![CircleCI](https://circleci.com/gh/ravidsrk/smart-contract-starter.svg?style=svg)](https://circleci.com/gh/ravidsrk/smart-contract-starter)
 
 Boilerplate for your next Smart Contract, made simple.
 
 ### Show some :heart:
 [![GitHub stars](https://img.shields.io/github/stars/ravidsrk/smart-contract-starter.svg?style=social&label=Star)](https://github.com/ravidsrk/smart-contract-starter) [![GitHub forks](https://img.shields.io/github/forks/ravidsrk/smart-contract-starter.svg?style=social&label=Fork)](https://github.com/ravidsrk/smart-contract-starter/fork) [![GitHub watchers](https://img.shields.io/github/watchers/ravidsrk/smart-contract-starter.svg?style=social&label=Watch)](https://github.com/ravidsrk/smart-contract-starter) [![GitHub followers](https://img.shields.io/github/followers/ravidsrk.svg?style=social&label=Follow)](https://github.com/ravidsrk/smart-contract-starter)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ravidsrk.svg?style=social)](https://twitter.com/ravidsrk)
+
+## This project uses:
+- [Truffle v5](https://truffleframework.com/)
+- [Ganache](https://truffleframework.com/ganache)
+- [Solium](https://github.com/duaraghav8/Solium)
+- [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-solidity)
+- [Travis CI](https://travis-ci.org/ravidsrk/smart-contract-starter) and [Circle CI](https://circleci.com/gh/ravidsrk/smart-contract-starter)
+- [Coveralls](https://coveralls.io/github/ravidsrk/smart-contract-starter?branch=master)
 
 ## Installation
 
@@ -38,7 +51,7 @@ Run lint, solium, and truffle test: npm run test
 ```
 MIT License
 
-Copyright (c) 2018 Ravindra Kumar
+Copyright (c) 2018 Ravindra Kumar <ravidsrk@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
