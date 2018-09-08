@@ -24,7 +24,7 @@ Boilerplate for your next Smart Contract, made simple.
 1. Install Truffle and Ganache CLI globally.
 
 ```javascript
-npm install -g truffle
+npm install -g truffle@beta
 npm install -g ganache-cli
 ```
 
