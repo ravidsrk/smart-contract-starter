@@ -26,9 +26,9 @@
     "bn.js": "^4.11.8",
     "dotenv": "^6.1.0",
     "openzeppelin-solidity": "^2.0.0",
-    "prettier": "^1.14.3",
+    "prettier": "^1.15.1",
     "truffle": "^5.0.0-beta.0",
-    "webpack": "^4.24.0",
+    "webpack": "^4.25.1",
     "truffle-hdwallet-provider": "^1.0.0-web3one.0"
   },
   "devDependencies": {
