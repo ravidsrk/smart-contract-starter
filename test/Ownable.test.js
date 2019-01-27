@@ -28,9 +28,4 @@ contract('Ownable', accounts => {
     assert.isTrue(owner !== other)
     await assertRevert(ownable.transferOwnership(other, { from: other }))
   })
-
-  it('should guard ownership against stuck state', async () => {
-    const originalOwner = await ownable.owner()
-    await assertRevert(ownable.transferOwnership(null, { from: originalOwner }))
-  })
 })

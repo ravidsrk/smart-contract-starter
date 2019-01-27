@@ -1,0 +1,13 @@
+{
+    "contractsDir": "contracts",
+    "artifactsDir": "artifacts",
+    "contracts": "*",
+    "compilerSettings": {
+        "optimizer": { "enabled": false },
+        "outputSelection": {
+            "*": {
+                "*": ["abi", "evm.bytecode.object","devdoc"]
+            }
+        }
+    }
+}

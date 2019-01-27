@@ -1,16 +1,15 @@
 require('dotenv').config()
 const HDWalletProvider = require('truffle-hdwallet-provider')
-const Wallet = require('ethereumjs-wallet')
 
-const rinkebyPrivateKey = new Buffer(process.env['RINKEBY_PRIVATE_KEY'], 'hex')
-const rinkebyWallet = Wallet.fromPrivateKey(rinkebyPrivateKey)
+const rinkebyWallet =
+  'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat'
 const rinkebyProvider = new HDWalletProvider(
   rinkebyWallet,
   'https://rinkeby.infura.io/'
 )
 
-const ropstenPrivateKey = new Buffer(process.env['ROPSTEN_PRIVATE_KEY'], 'hex')
-const ropstenWallet = Wallet.fromPrivateKey(ropstenPrivateKey)
+const ropstenWallet =
+  'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat'
 const ropstenProvider = new HDWalletProvider(
   ropstenWallet,
   'https://ropsten.infura.io/'
